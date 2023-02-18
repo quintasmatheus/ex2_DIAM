@@ -1,0 +1,192 @@
+  
+        * {
+            margin-left: 0;
+            margin-right: 0;
+            padding: 0;
+          }
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #F2F2F2;
+          }
+      
+          h1, h2, h3{
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+          }
+         
+          figcaption{
+            text-align: center;
+            color: #333;
+            font-size: 0.6em;
+            margin-bottom: 5rem;
+            margin-top: -4rem;
+          }
+          
+          nav {
+            background-color: lightgray;
+            padding: 10px;
+            border: 1px solid;
+            border-radius: 30px;
+          }
+          nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+          }
+          nav li {
+            display: inline-block;
+            margin-right: 20px;
+          }
+          nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+          }
+          nav a:hover{
+           color:white;
+          }
+      
+          .logo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+          }
+          .logo img {
+            width: 200px;
+          }
+
+          #propostas-submetidas{
+            margin-top: 50px;
+          }
+         
+          table {
+            width: 100%;
+            margin-top: 50px;
+            border-collapse: collapse;
+          }
+          th, td {
+            border: 1px solid #333;
+            padding: 10px;
+          }
+          th {
+            background-color: #333;
+            color: #FFF;
+          }
+    
+          #links {
+            display: block;
+            justify-content: center;
+            margin-top: 50px;
+            text-align: center;
+          }
+
+          #links a{
+            color: #333;
+          }
+        
+        #contactos{
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        margin-top: 5vh;
+        width: 100%;
+        height: 100%;
+        }
+        
+        footer h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        
+        footer a {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        form {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #FFF;
+            padding: 30px;
+            border-style: solid;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px #333;
+          }
+
+          label{
+            display: inline-block;
+            margin-bottom: 10px;
+            font-weight: bold;
+          }
+
+          form input[type="text"], [type="tel"], [type="email"], [type="url"]{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #CCC;
+            box-sizing: border-box;
+          }
+
+          fieldset{
+              width: 13rem;
+              height: 5rem;
+          }
+
+          form input[type="radio"]{
+            margin-right: 5px;
+          }
+          .submit {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          .reset{
+            background-color: #333;
+            color: #FFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+
+          p {
+            text-align: center;
+            font-size: 0.9em;
+            line-height: 1.4;
+          }
+
+          li {
+            text-align: center;
+          }
+
+          #informacoes{
+           
+            display: block;
+            margin-top: 50px;
+            text-align: center;
+          }
+      
+          aside {
+            width: 20%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+          }
+
+          aside li{
+            list-style: none;
+          }
+         

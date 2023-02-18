@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário das propostas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+   
+</head>
+<body>
+
+  <header>
+    <h1>Concurso de Performances Artísticas ISCTE</h1>
+    <figure class="logo">
+      <a href="https://www.iscte-iul.pt/">
+        <img src="ISCTE-Logo.png" alt="Logo ISCTE">
+         <figcaption>Logo do ISCTE</figcaption>
+      </a>
+    </figure>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="form.html">Submeter Proposta</a></li>
+      <li><a href="index.html#propostas-submetidas">Propostas Aceites</a></li>
+      <li><a href="index.html#informacoes">Informações sobre o Concurso</a></li>
+      <li><a href="index.html#contactos">Contactos com a Organização</a></li>
+    </ul>
+  </nav>
+
+    <section id="submeter-propostas">
+        <!-- Formulário para submissão de propostas -->
+        <h2>Submissão de Propostas</h2>
+        <form action="index.html">
+
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name">
+          <br>
+
+          <label for="birthday">Data de nascimento:</label>
+          <input type="date" id="date" name="date">
+          <br>
+
+          <label for="number">Número de aluno:</label>
+          <input type="text" id="number" name="number">
+          <br>
+
+          <label for="title">Título:</label>
+          <input type="text" id="title" name="title">
+          <br>
+
+          <label for="description">Descrição:</label>
+          <input type="text" id="description" name="description">
+          <br>
+
+          <label for="tel">Número de telemóvel:</label>
+          <input type="tel" id="tel" name="tel">
+          <br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <br>
+
+          <label for="url">Link de página pessoal:</label>
+          <input type="url" id="url" name="url">
+          <br> 
+          
+          
+          <label for="color">Tipo de Atuação:</label>
+          <input type="text" list="atuaçoes" id="atuaçao" name="atuaçao">
+          <datalist id="atuaçoes">
+            <option value="música">
+              <option value="dança">
+                <option value="cantar">
+                  <option value="magia">
+          </datalist>
+          <br>
+
+          <label for="color">Cor favorita:</label>
+          <input type="color" id="color" name="color">
+          <br>
+
+          <br>
+          <label for="availability">Disponibilidade de Horário:</label>
+          <fieldset>
+                <input type="radio" name="selection" value="16:00h"> 16:00<br>
+                <input type="radio" name="selection" value="17:00h"> 17:00<br>
+                <input type="radio" name="selection" value="18:00h"> 18:00<br>
+                <input type="radio" name="selection" value="19:00h"> 19:00<br>
+          </fieldset>
+          <br>
+          <input type="submit" value="Submeter" class="submit">
+          <a href="index.html"></a>
+          <input type="reset" value="reset" class="reset">
+        </form>
+        </section>
+
+        
+    <footer id="contactos">
+      <h3>Contactos</h3>
+      <p>E-mail: <a href="mailto:talentosIscte@gmail.com"> talentosIscte@gmail.com</a> </p>
+      <p>Telefone: <a href="tel:+351912345678"> +351 912345678</a></p>
+      </footer>
+</body>
+</html>
